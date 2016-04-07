@@ -1,4 +1,5 @@
 from modAccount import*
+from datetime import *
 
 a1 = Account("Bell", 100, date(2000,7,1))
 
@@ -22,7 +23,7 @@ a2 = Acount(bName, openBal, openDate)
 
 print("Info for a2 is: ", a2)
 
-==========================================
+#==========================================
 #strftime method to format date
 
 d1 = date(2000, 7, 1)
